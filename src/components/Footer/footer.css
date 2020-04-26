@@ -1,0 +1,11 @@
+
+.footer-bottom{
+    height: 8vh;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(214, 214, 214);
+    margin-top: 6vh;
+}

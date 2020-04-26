@@ -1,0 +1,83 @@
+.nav{
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 1;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(230, 229, 229);
+    min-height: 55px;
+    position: fixed;
+    top: 0;
+
+}
+
+#navbarNav{
+    width: 40%;
+    justify-content: space-around;
+}
+.navbar a{
+    color: black;
+}
+
+.row, .col-m-12{
+    width: 100%;
+}
+
+.navbar-brand{
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    font-family: 'Dawning of a New Day', cursive; 
+    font-size: 30px; 
+}
+
+.navbar-brand span{
+    color: #eb4559;
+
+}
+
+.navbar-nav li a{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #080808;
+}
+
+.navbar-nav{
+    font-size: 20px;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav-button button{
+    border: none;
+    background-color: #eb4559;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+
+.login{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.body{
+    background-color:  rgba(248, 131, 121, 0.12);
+    width: 100%;
+}
+
+.nav-link:hover{
+    color: #eb4559;
+    border-bottom: 2px solid #eb4559;
+}
+
